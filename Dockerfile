@@ -19,5 +19,5 @@ COPY . /usr/src/app
 RUN pwd
 RUN ls -l
 RUN cat /etc/os-release
-#CMD [ "python", "./GPAS_API_REST/manage.py", "runserver", "0.0.0.0:8000" ]
+#CMD [ "python", "./subdirectorioX/manage.py", "runserver", "0.0.0.0:8000" ]
 CMD [ "python", "./Hello.py" ]
