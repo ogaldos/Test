@@ -20,4 +20,4 @@ RUN pwd
 RUN ls -l
 RUN cat /etc/os-release
 #CMD [ "python", "./GPAS_API_REST/manage.py", "runserver", "0.0.0.0:8000" ]
-CMD [ "python", "./hello_world.py" ]
+CMD [ "python", "./Hello.py" ]
