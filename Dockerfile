@@ -1,9 +1,9 @@
 FROM reg-dhc.app.corpintra.net/i3-mirror/docker.io_python:3.9.2-slim-buster 
 
-COPY requirements.txt /opt/app/requirements.txt
+COPY requirements.txt /usr/src/app/requirements.txt
 WORKDIR /usr/src/app
 RUN apt-get update
-RUN pip install -r requirements.txt
+RUN pip install -r /usr/src/app/requirements.txt
 COPY . /usr/src/app
 
 #COPY requirements.txt ./
