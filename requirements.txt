@@ -1,6 +1,2 @@
-django
-djangorestframework
-
-django-pyodbc-azure
-PyYAML
-drf-yasg
+numpy
+pygame
