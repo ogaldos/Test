@@ -1,2 +1,8 @@
-numpy
-pygame
+pygame==2.5.2
+pygame-gui==0.6.12
+numpy>=1.26
+pillow>=10.0
+pyopengl>=3.1
+pandas
+matplotlib
+pyinstaller  # si quieres empaquetar el juego en .exe
